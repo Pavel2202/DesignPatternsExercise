@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{5A914344-058F-4FF2-8EBC-0D29FC0A2877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{5A914344-058F-4FF2-8EBC-0D29FC0A2877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{D2DDE001-6825-4690-B4D4-248E13E16BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{D2DDE001-6825-4690-B4D4-248E13E16BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AB86023A-C798-44C2-BC25-142CA123727D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{AB86023A-C798-44C2-BC25-142CA123727D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{EAD5A27F-C5C3-4003-BD4A-F9FF2BE4F945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{EAD5A27F-C5C3-4003-BD4A-F9FF2BE4F945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{E19A1C0D-F503-4165-91AC-9ACF845C85A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{E19A1C0D-F503-4165-91AC-9ACF845C85A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{E2E0158D-52C5-47E5-9DB7-37FE1CA09E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{E2E0158D-52C5-47E5-9DB7-37FE1CA09E9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{72E738FE-8FA3-4EFE-B673-C96AFD17C181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{72E738FE-8FA3-4EFE-B673-C96AFD17C181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D906A0D7-01E8-4280-86E7-E2EE870E3824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{72E738FE-8FA3-4EFE-B673-C96AFD17C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E738FE-8FA3-4EFE-B673-C96AFD17C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E738FE-8FA3-4EFE-B673-C96AFD17C181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D906A0D7-01E8-4280-86E7-E2EE870E3824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D906A0D7-01E8-4280-86E7-E2EE870E3824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D906A0D7-01E8-4280-86E7-E2EE870E3824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D906A0D7-01E8-4280-86E7-E2EE870E3824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
